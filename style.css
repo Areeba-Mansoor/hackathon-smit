@@ -395,30 +395,29 @@ footer {
   margin-top: 1rem;
 }
 
-/* footer{
-  padding: 30px 60px;
-  background-color: #2f2f2f;
-  display: flex;
-  justify-content: space-between;
+.bottom-text{
+  width: 100%;
+  padding: 50px;
+  background-color: #f5f7fa;
 }
-.footers{
+.bottom-text > div {
   max-width: 1400px;
   margin: auto;
-}
-.footer >div{
-  min-width: 250px;
-  max-width: 300px;
-  height: 220px;
-  padding: 20px 10px;
-  border: none;
-  background: #f1f3f6;
   text-align: center;
 }
-.footer .logo-icon{
-  display: flex;
-  text-align: center;
-} */
+.bottom-text h1{
+  font-size: 2rem;
+  line-height: 1.2;
+}
 
+.bottom-text  button{
+  padding: 10px 15px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #4aa94d;
+  border: none;
+  border-radius: 2px;
+}
 @media (max-width: 768px) {
   .icons_clients {
     gap: 20px;
